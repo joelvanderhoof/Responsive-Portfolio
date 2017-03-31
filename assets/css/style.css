@@ -12,17 +12,6 @@ body {
 
 /* general */
 
-@media screen and (max-width: 960) {
-
-}
-
-@media screen and (max-width: 768) {
-  
-}
-
-@media screen and (max-width: 640) {
-  
-}
 
 .container {
   width: 100%;
@@ -249,3 +238,71 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+@media screen and (max-width: 640px) {
+  #logo {
+    width: 100%;
+  }
+
+  nav { 
+    display: block;
+    float: none;
+    margin-top: 0;
+  }
+
+  nav a {
+      /*padding-left: 30px;*/
+      width: 31%;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .sidebar {
+    float: none;
+    width: 100%;
+    max-width: 615px;
+    /*padding: 30px;*/
+    margin:0 auto;
+    clear: both;
+    /*background: #fff;*/
+    /*border: 1px solid #ddd;*/
+  }
+  
+  .main-section {
+    float: none;
+    max-width: 615px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .auth-image {
+    float: none;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .sidebar {
+    float: none;
+    width: 100%;
+    max-width: 738px;
+    /*padding: 30px;*/
+    margin:0 auto;
+    clear: both;
+    /*background: #fff;*/
+    /*border: 1px solid #ddd;*/
+  }
+  
+  .main-section {
+    float: none;
+    max-width: 738px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/*@media screen and (min-width: 769px) {
+  
+}*/
+
+
