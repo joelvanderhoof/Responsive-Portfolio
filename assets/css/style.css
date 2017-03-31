@@ -279,6 +279,40 @@ input[type=submit] {
     float: none;
     width: 300px;
   }
+
+  /*Mobile version: Portfolio Page*/
+  .work {
+  position: relative;
+  max-width: 615px;
+  float: none;
+  width: 400x;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
@@ -295,7 +329,7 @@ input[type=submit] {
   
   .main-section {
     float: none;
-    max-width: 738px;
+    max-width: 738 px;
     width: 100%;
     margin: 0 auto;
   }
